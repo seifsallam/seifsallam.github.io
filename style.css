@@ -190,6 +190,12 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	line-height: 50px;
 	font-family: Arvo;
 }
+#bloc-5 p{
+	font-size: 24px;
+}
+#bloc-6 p{
+	font-size: 18px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -406,6 +412,11 @@ button{
 }
 .dropdown a .caret{
 	margin:0 0 0 5px}
+/* = Icons
+-------------------------------------------------------------- */
+.icon-lg{
+	font-size:60px!important;
+}
 
 /* Image Frame */
 .img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
@@ -526,10 +537,13 @@ iframe{
 	background-image:url("img/avatar-siwa.jpg");
 }
 .bg-map{
-	background-image:url('img/map.jpg');
+	background-image:url("img/map.jpg");
 }
 .bg-map{
-	background-image:url('img/map.jpg');
+	background-image:url("img/map.jpg");
+}
+.bg-Oval-248-Copy-4-Oval-248{
+	background-image:url('img/Oval%20248%20Copy%204%20+%20Oval%20248.png');
 }
 
 
