@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>asknative-android-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="asknative-mobile-Case-Studies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="project-asknative-android" sketch:type="MSArtboardGroup" transform="translate(-592.000000, -140.000000)">
+            <g id="asknative-android-logo" sketch:type="MSLayerGroup" transform="translate(592.000000, 140.000000)">
+                <rect id="bounds" sketch:type="MSShapeGroup" x="0" y="0" width="256" height="256"></rect>
+                <path d="M173.797575,197.877267 C160.706298,206.460091 145.048969,211.451613 128.225806,211.451613 C82.2614605,211.451613 45,174.190152 45,128.225806 C45,82.2614605 82.2614605,45 128.225806,45 C174.190152,45 211.451613,82.2614605 211.451613,128.225806 C211.451613,144.546984 206.75353,159.770866 198.635943,172.61887 L212.533599,211.664665 L173.797575,197.877267 L173.797575,197.877267 Z M109.83871,141.774194 C115.71787,141.774194 120.483871,137.008193 120.483871,131.129032 C120.483871,125.249872 115.71787,120.483871 109.83871,120.483871 C103.959549,120.483871 99.1935484,125.249872 99.1935484,131.129032 C99.1935484,137.008193 103.959549,141.774194 109.83871,141.774194 Z M146.612903,141.774194 C152.492064,141.774194 157.258065,137.008193 157.258065,131.129032 C157.258065,125.249872 152.492064,120.483871 146.612903,120.483871 C140.733743,120.483871 135.967742,125.249872 135.967742,131.129032 C135.967742,137.008193 140.733743,141.774194 146.612903,141.774194 Z" id="logo" fill="#DC4B28" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

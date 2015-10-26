@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    portfolio-v2
+/*	    portfolio
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -13,17 +13,43 @@ body{
 }
 a:hover{text-decoration: none; cursor:pointer;}
 
-button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-   
+a{
+	color:or:#DD492A!important;
+}
+ a:hover{
+	color:#000000!important;
+	 text-decoration: none;
+	 cursor:pointer;
+}
+
 
 
 /* Globals type styling */
-    h1, h2, h3, h4, h5, h6, p, label, .btn, a{
-	font-family:"Helvetica";
+ h1, h4, h5, h6, p, label, .btn, a{
+	font-family:Lato;
+	font-weight:400;
+}
+h2{
+	font-family:Lato;
+	font-weight:900;
+}
+h3{
+	font-family:Lato;
+	font-weight:900;
 }
 
+h2{
+	font-size:66px;
+}
+h3{
+	font-size:44px;
+}
+h4{
+	font-size:14px;
+}
 
 /* Site container width */
 
@@ -43,6 +69,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	position:relative;
 }
 .bloc .container{
 	padding-left:0;
@@ -63,16 +90,29 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 
 
-/* Background Styles */
+/* Group Styles */
 
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
+.bloc-group{
+	width:100%;
+	display:table;
+	table-layout: fixed;
 }
-.bg-repeat{
-	background:repeat;
+.bloc-group .bloc{
+	position:relative;
+	display: table-cell;
+	vertical-align: top;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
 }
 
 
@@ -169,32 +209,441 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 .voffset{
 	margin-top:30px;
 }
+.voffset-md{
+	margin-top:50px;
+}
+.voffset-lg{
+	margin-top:80px;
+}
 
 /* Bloc text custom styling */
 
 #hero-bloc h3{
-	font-weight: 700;
-	font-family: Arvo;
-	font-size: 26px;
-	line-height: 38px;
+	font-size: 32px;
+	font-weight: 400;
+	font-family: Pacifico;
 }
-#contact h3{
+#hero-bloc h1{
+	font-size: 72px;
+	line-height: 92px;
+	font-weight: 300;
+	font-family: Oswald;
+}
+#about p{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 22px;
+}
+#bloc-7 h3{
+	line-height: 30px;
+	font-size: 32px;
+}
+#bloc-7 p{
+	font-size: 22px;
+	line-height: 33px;
+	font-family: Lato;
+	font-weight: 400;
+}
+#bloc-8 p{
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-9 h5{
+	font-family: Lato;
+	font-weight: 400;
+}
+#bloc-9 h4{
+	font-size: 14px;
+	font-family: Lato;
+	font-weight: 900;
+	line-height: 15px;
+}
+#bloc-10 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-11 p{
+	font-size: 24px;
+	line-height: 36px;
+	font-family: Domine;
+}
+#bloc-12 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-13 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-15 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-17 p{
+	font-size: 24px;
+	line-height: 36px;
+	font-family: Domine;
+}
+#bloc-19 p{
+	font-size: 24px;
+	line-height: 36px;
+	font-family: Domine;
+}
+#bloc-21 p{
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-23 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-24 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-25 p{
+	font-size: 24px;
+	font-family: Domine;
+	line-height: 36px;
+}
+#bloc-29 h3{
+	line-height: 30px;
+	font-size: 32px;
+}
+#bloc-29 p{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+}
+#bloc-30 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-31 h5{
+	font-family: Lato;
+	font-weight: 400;
+}
+#bloc-31 h4{
+	font-family: Lato;
+	font-weight: 900;
+}
+#bloc-32 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-33 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-35 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-37 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-39 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-41 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-46 h3{
+	font-size: 32px;
 	line-height: 30px;
 }
-#contact p{
-	font-size: 18px;
-	font-weight: 100;
-	font-family: Helvetica;
+#bloc-46 p{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
 }
-#bloc-4 h3{
-	line-height: 50px;
-	font-family: Arvo;
-}
-#bloc-5 p{
+#bloc-47 p{
+	font-weight: 400;
+	font-family: Domine;
 	font-size: 24px;
+	line-height: 36px;
 }
-#bloc-6 p{
-	font-size: 18px;
+#bloc-48 h4{
+	font-family: Lato;
+	font-weight: 900;
+}
+#bloc-49 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-50 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-51 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-52 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-54 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-56 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-58 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-60 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-62 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-64 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-66 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-68 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-70 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-72 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-74 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-76 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-78 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-80 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-82 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-84 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-86 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-90 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-94 h3{
+	font-size: 32px;
+	line-height: 30px;
+}
+#bloc-94 p{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+}
+#bloc-95 h1{
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 66px;
+	line-height: 73px;
+}
+#bloc-95 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-96 h5{
+	font-family: Lato;
+	font-weight: 400;
+}
+#bloc-96 h4{
+	font-size: 14px;
+	line-height: 15px;
+	font-family: Lato;
+	font-weight: 900;
+}
+#bloc-97 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-98 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-99 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-100 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-102 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-104 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-106 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-108 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-110 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-115 h3{
+	font-size: 32px;
+	line-height: 30px;
+}
+#bloc-115 p{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+}
+#bloc-116 h5{
+	line-height: 18px;
+}
+#bloc-116 p{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+#bloc-116 h4{
+	font-size: 16px;
+	line-height: 17px;
+}
+#bloc-116 h3{
+	font-size: 16px;
+}
+#bloc-116 h6{
+	font-size: 14px;
+	line-height: 15px;
+	font-family: Lato;
+	font-weight: 400;
 }
 
 /* = NavBar
@@ -286,7 +735,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 .nav > li > .dropdown a{
 	background: none!important;
 	display: block;
-	padding: 15px 15px;
+	padding: 14px 15px;
 }
 
 nav .caret{
@@ -297,9 +746,7 @@ nav .caret{
 -------------------------------------------------------------- */
 
 .hero{
-	padding:150px 0;
-	position:relative;
-	display:inline-table;
+	padding-top:0;
 }
 .hero-nav{
 	position:absolute;
@@ -309,17 +756,14 @@ nav .caret{
 	right:0;
 }
 .v-center{
-	width:100%;
-	height: 100%;
-	display: table;
-	table-layout: fixed;
+	position: relative;
+	height: inherit;
 }
 .v-center .vc-content{
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	width: 100%;
-	height: 100%;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
 }
 .hero .btn-dwn{
 	width: 58px;
@@ -344,6 +788,9 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -407,36 +854,18 @@ button{
 .text-center .a-btn{
 	padding: 6px 0;
 }
-.icon-spacer{
-	margin-right:5px;
+.a-block{
+	width:100%;
+	text-align: left;
 }
 .dropdown a .caret{
 	margin:0 0 0 5px}
 /* = Icons
 -------------------------------------------------------------- */
-.icon-lg{
-	font-size:60px!important;
+.icon-md{
+	font-size:30px!important;
 }
 
-/* Image Frame */
-.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
-	background:#FFF;
-	border:1px solid rgba(0,0,0,0.1);
-	box-shadow:0 2px 2px rgba(0,0,0,0.05);
-	padding:4px;
-}
-.img-frame{
-	border-radius:3px;
-}
-.img-frame-md,.img-frame-lg{
-	border-radius:6px;
-}
-.img-frame-md,.img-frame-rd-md{
-	padding:8px;
-}
-.img-frame-lg,.img-frame-rd-lg{
-	padding:14px;
-}
 
 
 
@@ -453,6 +882,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 /* iFrame */
@@ -487,20 +932,49 @@ iframe{
 
 /* Background colour styles */
 
-.bgc-white{
-	background-color:#ffffff;
-}
 .bgc-snow{
 	background-color:#FAFAFA;
 }
-.bgc-olive-drab-7{
-	background-color:#333333;
+.bgc-white{
+	background-color:#ffffff;
+}
+.bgc-dodger-blue{
+	background-color:#3091FA;
+}
+.bgc-cg-red{
+	background-color:#DB4522;
+}
+.bgc-yellow-ncs{
+	background-color:#FFD300;
+}
+.bgc-white-smoke{
+	background-color:#F5F5F5;
+}
+.bgc-cinnabar{
+	background-color:#DD492A;
+}
+.bgc-golden-yellow{
+	background-color:#FFE000;
 }
 .bgc-anti-flash-white{
 	background-color:#F0F0F0;
 }
 /* Text colour styles */
 
+.tc-cinnabar{
+	color:#DD492A!important;
+}
+.tc-outer-space{
+	color:#47454B!important;
+	!important}.tc-gray-x11-gray{
+	color:#BEBEBE!important;
+}
+.tc-outer-space-2{
+	color:#454545!important;
+}
+.tc-white{
+	color:#ffffff!important;
+}
 .tc-olive-drab-7{
 	color:#333333!important;
 }
@@ -510,40 +984,165 @@ iframe{
 	color:#DD492A!important;
 	border-color:#DD492A!important;
 }
+.wire-btn-cg-red{
+	color:#DB4522!important;
+	border-color:#DB4522!important;
+}
 /* Link colour styles */
 
-.ltc-olive-drab-7{
-	color:#333333!important;
+.ltc-outer-space{
+	color:#47454B!important;
 }
-.ltc-olive-drab-7:hover{
-	color:#292929!important;
+.ltc-outer-space:hover{
+	color:#3b393e!important;
+}
+/* Icon colour styles */
+
+.icon-snow{
+	color:#FAFAFA!important;
+	border-color:#FAFAFA!important;
+}
+.icon-light-gray{
+	color:#D6D6D6!important;
+	border-color:#D6D6D6!important;
 }
 
 /* Bloc image backgrounds */
 
-}.bg-camera{
-	background-image:url("img/camera.jpg");
-}
-.bg-grid-bg{
-	background-image:url("img/grid-bg.png");
-}
-.bg-sanfran{
-	background-image:url("img/sanfran.jpg");
-}
-.bg-asknative-iOS-case-study{
+}.bg-asknative-iOS-case-study{
 	background-image:url("img/asknative%20iOS%20case%20study.png");
 }
 .bg-avatar-siwa{
 	background-image:url("img/avatar-siwa.jpg");
 }
-.bg-map{
-	background-image:url("img/map.jpg");
-}
-.bg-map{
-	background-image:url("img/map.jpg");
-}
 .bg-Oval-248-Copy-4-Oval-248{
-	background-image:url('img/Oval%20248%20Copy%204%20+%20Oval%20248.png');
+	background-image:url("img/Oval%20248%20Copy%204%20+%20Oval%20248.png");
+}
+.bg-color-1{
+	background-image:url("img/color-1.png");
+}
+.bg-color-4{
+	background-image:url("img/color-4.png");
+}
+.bg-Artboard-16-Copy-5{
+	background-image:url("img/Artboard%2016%20Copy%205.png");
+}
+.bg-Artboard-16-Copy-8{
+	background-image:url("img/Artboard%2016%20Copy%208.png");
+}
+.bg-logo-7{
+	background-image:url("img/logo-7.png");
+}
+.bg-logo-5{
+	background-image:url("img/logo-5.png");
+}
+.bg-hello-bg{
+	background-image:url("http://www.gardenberg.se/wp-content/uploads/2015/05/hello_bg.jpg");
+}
+.bg-asknative-android-wide{
+	background-image:url("img/asknative-android-wide.png");
+}
+.bg-streaming-web-wide{
+	background-image:url("img/streaming-web-wide.png");
+}
+.bg-cars-ios-wide{
+	background-image:url("img/cars-ios-wide.png");
+}
+.bg-asknative-ios-wide{
+	background-image:url("img/asknative-ios-wide.png");
+}
+.bg-asknative-web-wide{
+	background-image:url("img/asknative-web-wide.png");
+}
+.bg-cars-ios-2{
+	background-image:url("img/cars-ios-2.png");
+}
+.bg-asknative-ios-wide{
+	background-image:url("img/asknative-ios-wide.png");
+}
+.bg-asknative-web-2{
+	background-image:url("img/asknative-web-2.png");
+}
+.bg-cover-7{
+	background-image:url("img/cover-7.jpg");
+}
+.bg-01-Header{
+	background-image:url("img/01%20Header.png");
+}
+.bg-map{
+	background-image:url("img/map.jpg");
+}
+.bg-asknative-ios-post-cells{
+	background-image:url("img/asknative-ios-post-cells.png");
+}
+.bg-asknative-ios-post-background{
+	background-image:url("img/asknative-ios-post-background.png");
+}
+.bg-asknative-ios-post-background{
+	background-image:url("img/asknative-ios-post-background.png");
+}
+.bg-asknative-ios-post-cells-background{
+	background-image:url("img/asknative-ios-post-cells-background.png");
+}
+.bg-asknative-ios-discover-background{
+	background-image:url("img/asknative-ios-discover-background.png");
+}
+.bg-asknative-ios-navigation-background{
+	background-image:url("img/asknative-ios-navigation-background.png");
+}
+.bg-asknative-ios-final-background{
+	background-image:url("img/asknative-ios-final-background.png");
+}
+.bg-10-banner-1{
+	background-image:url("img/10-banner-1.png");
+}
+.bg-asknative-ios-navigation-background{
+	background-image:url("img/asknative-ios-navigation-background.png");
+}
+.bg-cover-7{
+	background-image:url("img/cover-7.jpg");
+}
+.bg-cover-0{
+	background-image:url("img/cover-0.jpg");
+}
+.bg-not-found-0{
+	background-image:url("img/not-found-0.jpg");
+}
+.bg-asknative-ios-final{
+	background-image:url("img/asknative-ios-final.png");
+}
+.bg-asknative-android-timeline-background{
+	background-image:url("img/asknative-android-timeline-background.png");
+}
+.bg-asknative-android-postdetails-background{
+	background-image:url("img/asknative-android-postdetails-background.png");
+}
+.bg-asknative-android-listings-background{
+	background-image:url("img/asknative-android-listings-background.png");
+}
+.bg-sanfran{
+	background-image:url("img/sanfran.jpg");
+}
+.bg-asknative-android-discover-background{
+	background-image:url("img/asknative-android-discover-background.png");
+}
+.bg-preview-yaya-full{
+	background-image:url("img/preview-yaya-full.png");
+}
+.bg-preview-asknative-ios-full{
+	background-image:url("img/preview-asknative-ios-full.png");
+}
+.bg-preview-asknative-android-full{
+	background-image:url("img/preview-asknative-android-full.png");
+}
+.bg-map{
+	background-image:url("img/map.jpg");
+}
+.bg-camera{
+	background-image:url("img/camera.jpg");
+}
+.bg-city{
+	background-image:url("img/city.jpg");
 }
 
 
@@ -589,9 +1188,6 @@ iframe{
         -moz-background-size: auto 200%;
         -o-background-size: auto 200%;
         background-size: auto 200%;
-    }
-    .bloc, .bloc .text-right{
-        text-align: center!important;
     }
     .b-parallax{
         background-attachment:scroll;
@@ -673,7 +1269,7 @@ iframe{
         padding-right: 0;
     }
     .a-block{
-        text-align: center;
+        padding:0 10px;
     }
     .btn-dwn{
        display:none; 
@@ -690,8 +1286,14 @@ iframe{
     form{
         padding:5px;
     }
+    .close-lightbox{
+        display:inline-block;
+    }
     .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .video-bg-contianer{
+        display:none;
     }
 }

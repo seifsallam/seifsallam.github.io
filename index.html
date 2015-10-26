@@ -2,127 +2,178 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="product design, freelance, design, ui design, ux design, iOS, web design, front-end development">
+    <meta name="description" content="Product Designer and Frontend Developer ">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
-    <link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Arvo&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/feather.min.css'/><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Domine&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/blocs.js"></script>
     
-    <title></title>
+    <title>seif sallam</title>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
     <!-- Hero Bloc --><div id="hero-bloc" class="bloc hero bgc-snow">
-	<div class="container hero-nav bloc-sm">
-		<nav class="navbar row">
+	<div class="container bloc-sm hero-nav">
+		<nav class="navbar row nav-center">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/logo.png" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1">
+			<div class="navbar-collapse navbar-1 collapse">
 				<ul class="site-navigation nav navbar-nav pull-right">
 					<li>
-						<a class="ltc-olive-drab-7" id="pl-undefined" onclick="scrollToTarget('#work-block')">Work</a>
+						<a class="ltc-outer-space" id="pl-undefined" onclick="scrollToTarget('#about')">ABOUT</a>
 					</li>
 					<li>
-						<a href="about.html" class="ltc-olive-drab-7">About</a>
+						<a id="pl-undefined" onclick="scrollToTarget('#project-yaya')" class="ltc-outer-space">WORK</a>
 					</li>
 					<li>
-						<a href="mailto:me@seifsallam.com" class="ltc-olive-drab-7" id="pl-undefined">Contact</a>
+						<a id="pl-undefined" href="mailto:me@seifsallam.com" class="ltc-outer-space">CONTACT</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
 	<div class="v-center text-center">
-		<div class="vc-content">
-			<h3 class=" tc-olive-drab-7">
-				<span><i>My name is Seif and I am a designer &amp; developer who thrives<br />on multi-disciplinary, creative exploration, and making the world<br />a better place by creating captivating products.</i></span>
-			</h3><br /><br /><br /><a id="scroll-hero" class="btn-dwn" href="#"><span class="fa fa-chevron-down icon icon-arrow-down icon-arrow-up"></span></a>
-		</div>
-	</div>
-</div><!-- Hero Bloc END --><!-- work-block --><div class="bloc bgc-snow l-bloc" id="work-block">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-8">
-				<a href="asknative-ios.html"><img src="img/sanfran.jpg" class="img-responsive" /></a>
-			</div>
-			<div class="col-sm-4">
-				<img src="img/cornfield.jpg" class="img-responsive mg-sm" /><img src="img/newyork.jpg" class="img-responsive" />
+		<div class="vc-content row">
+			<div class="col-sm-12">
+				<h3 class=" tc-outer-space">
+					Hi, I&rsquo;m Seif
+				</h3>
+				<h1 class=" text-center tc-cinnabar">
+					PRODUCT DESIGNER<br />&amp; FRONTEND DEVELOPER
+				</h1>
 			</div>
 		</div>
-		<div class="row voffset">
-			<div class="col-sm-4">
-				<img src="img/map.jpg" class="img-responsive mg-md" /><img src="img/camera.jpg" class="img-responsive mg-sm" />
-			</div>
-			<div class="col-sm-8">
-				<img src="img/tracks.jpg" class="img-responsive" />
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-sm-3">
-				<img src="img/walkway.jpg" class="img-responsive" />
-			</div>
-			<div class="col-sm-3">
-				<img src="img/cornfield.jpg" class="img-responsive" />
-			</div>
-			<div class="col-sm-3">
-				<img src="img/field.jpg" class="img-responsive" />
-			</div>
-			<div class="col-sm-3">
-				<img src="img/forrest.jpg" class="img-responsive" />
-			</div>
-		</div>
-	</div>
-</div><!-- work-block END --><!-- contact --><div class="bloc bgc-snow l-bloc bg-repeat" id="contact">
+	</div><a id="scroll-hero" class="btn-dwn" onclick="scrollToTarget('#project-yaya')"><span class="fa fa-chevron-down icon-2 icon-snow"></span></a>
+</div><!-- Hero Bloc END --><!-- about --><div class="bloc bgc-white tc-outer-space" id="about">
 	<div class="container bloc-lg">
 		<div class="col-sm-12 col-md-8 col-md-offset-2">
-			<h3 class="text-center  tc-olive-drab-7">
-				Let&rsquo;s Work Together
-			</h3>
-			<p class="text-center ">
-				Tell me about your project and we can get things moving<br />
+			<h4 class="mg-md text-center tc-gray-x11-gray">
+				<strong>ABOUT</strong>
+			</h4>
+			<p class=" text-center">
+				Co-founder of asknative. My experience goes from concept design to backend development. Currently focusing on User Interface and User Experience design, prototyping, and developing single-page web applications.<br /><br /><strong>Currently accepting new projects</strong>
 			</p>
+			<div class="divider-h">
+				<span class="divider divider-half"></span>
+			</div>
+			<h4 class="mg-md text-center tc-gray-x11-gray">
+				<strong>FEATURED WORK</strong>
+			</h4>
 			<div class="text-center">
-				<a href="mailto:me@seifsallam.com" class="btn btn-wire btn-rd wire-btn-cinnabar btn-lg">CONTACT</a>
+				<span class="feather-icon icon-arrow-down icon-md icon-light-gray"></span>
 			</div>
 		</div>
 	</div>
-</div><!-- contact END --><!-- Footer - bloc-9 --><div class="bloc bgc-anti-flash-white l-bloc" id="bloc-9">
+</div><!-- about END --><!-- project-yaya --><div class="bloc bgc-dodger-blue d-bloc" id="project-yaya">
+	<div class="container">
+		<div class="row voffset-lg">
+			<div class="col-sm-12">
+				<h3 class="mg-md  text-center">
+					Design &amp; Prototype for an Uber like app
+				</h3>
+				<div class="text-center">
+					<a href="car-app.html" class="btn btn-lg btn-rd btn-d">VIEW PROJECT →</a>
+				</div><a href="car-app.html"><img class="img-responsive center-block" src="img/preview-yaya-full.png" /></a>
+			</div>
+		</div>
+	</div>
+</div><!-- project-yaya END --><!-- project-asknative-ios --><div class="bloc bgc-cg-red d-bloc" id="project-asknative-ios">
+	<div class="container">
+		<div class="row voffset-lg">
+			<div class="col-sm-12">
+				<h3 class="mg-md  text-center">
+					Mobile Design &amp; Branding for asknative iOS
+				</h3>
+				<div class="text-center">
+					<a href="asknative-ios.html" class="btn btn-rd btn-lg btn-d">VIEW PROJECT →</a>
+				</div><a href="asknative-ios.html"><img class="img-responsive center-block" src="img/preview-asknative-ios-full.png" /></a>
+			</div>
+		</div>
+	</div>
+</div><!-- project-asknative-ios END --><!-- project-asknative-webapp --><div class="bloc bgc-yellow-ncs l-bloc" id="project-asknative-webapp">
+	<div class="container">
+		<div class="row voffset-lg">
+			<div class="col-sm-12">
+				<h3 class="mg-md  text-center">
+					Web Design &amp; Development for asknative
+				</h3>
+				<div class="text-center">
+					<a href="asknative-webapp.html" class="btn btn-rd btn-lg btn-d">VIEW PROJECT→</a>
+				</div><a href="asknative-webapp.html"><img class="img-responsive center-block" src="img/preview-asknative-web-full.png" /></a>
+			</div>
+		</div>
+	</div>
+</div><!-- project-asknative-webapp END --><!-- project-asknative-android --><div class="bloc bgc-cg-red d-bloc" id="project-asknative-android">
+	<div class="container">
+		<div class="row voffset-lg">
+			<div class="col-sm-12">
+				<h3 class="mg-md  text-center">
+					Mobile Design for asknative Android
+				</h3>
+				<div class="text-center">
+					<a href="asknative-android.html" class="btn btn-rd btn-lg btn-d">VIEW PROJECT →</a>
+				</div><a href="asknative-android.html"><img class="img-responsive center-block" src="img/preview-asknative-android-full.png" /></a>
+			</div>
+		</div>
+	</div>
+</div><!-- project-asknative-android END --><!-- bloc-7 --><div class="bloc l-bloc bgc-white" id="bloc-7">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<h3 class="text-center  mg-sm">
+					Let&rsquo;s work together
+				</h3>
+				<p class="text-center  mg-md">
+					Tell me about your project and we can get things moving
+				</p>
+				<div class="text-center">
+					<a href="mailto:me@seifsallam.com" class="btn btn-rd wire-btn-cinnabar btn-lg btn-wire">Contact me</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-7 END --><!-- Footer - bloc-117 --><div class="bloc bgc-anti-flash-white l-bloc" id="bloc-117">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
 				<div class="col-sm-3 text-center">
-					<a class="social" href="index.html"></a><a href="index.html" class="a-btn pull-left">TWITTER</a>
+					<a class="social" href="index.html"></a>
+					<div class="text-center">
+						<a href="http://twitter.com/seifsallam" class="a-btn" target="_blank">TWITTER</a>
+					</div>
 				</div>
 				<div class="col-sm-3 text-center">
-					<a class="social" href="index.html"></a><a href="index.html" class="a-btn">LINKEDIN</a>
+					<a class="social" href="index.html"></a><a href="https://eg.linkedin.com/in/seifsallam" class="a-btn" target="_blank">LINKEDIN</a>
 				</div>
 				<div class="col-sm-3 text-center">
-					<a class="social" href="index.html"></a><a href="index.html" class="a-btn">MEDIUM</a>
+					<a class="social" href="index.html"></a><a href="http://medium.com/@seifsallam" class="a-btn" target="_blank">MEDIUM</a>
 				</div>
 				<div class="col-sm-3 text-center">
-					<a class="social" href="index.html"></a><a href="index.html" class="a-btn">GITHUB</a>
+					<a class="social" href="index.html"></a><a href="http://github.com/seifsallam" class="a-btn" target="_blank">GITHUB</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div><!-- Footer - bloc-9 END -->
+</div><!-- Footer - bloc-117 END -->
 </div>
 <!-- Main container END -->
 
 </body>
     
 <!-- Google Analytics -->
-
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-33224950-2', 'auto');  ga('send', 'pageview');</script>
 <!-- Google Analytics END -->
 
 </html>
