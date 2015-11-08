@@ -229,49 +229,44 @@ h4{
 	font-weight: 300;
 	font-family: Oswald;
 }
-#about p{
+#bloc-2 p{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 22px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	line-height: 30px;
 	font-size: 32px;
 }
-#bloc-7 p{
+#bloc-8 p{
 	font-size: 22px;
 	line-height: 33px;
 	font-family: Lato;
 	font-weight: 400;
 }
-#bloc-8 p{
+#bloc-9 p{
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-9 h5{
+#bloc-10 h5{
 	font-family: Lato;
 	font-weight: 400;
 }
-#bloc-9 h4{
+#bloc-10 h4{
 	font-size: 14px;
 	font-family: Lato;
 	font-weight: 900;
 	line-height: 15px;
 }
-#bloc-10 p{
-	line-height: 36px;
-	font-size: 24px;
-	font-family: Domine;
-}
 #bloc-11 p{
-	font-size: 24px;
 	line-height: 36px;
+	font-size: 24px;
 	font-family: Domine;
 }
 #bloc-12 p{
-	line-height: 36px;
 	font-size: 24px;
+	line-height: 36px;
 	font-family: Domine;
 }
 #bloc-13 p{
@@ -279,71 +274,70 @@ h4{
 	font-size: 24px;
 	font-family: Domine;
 }
-#bloc-15 p{
+#bloc-14 p{
 	line-height: 36px;
 	font-size: 24px;
 	font-family: Domine;
 }
-#bloc-17 p{
+#bloc-16 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-18 p{
 	font-size: 24px;
 	line-height: 36px;
 	font-family: Domine;
 }
-#bloc-19 p{
+#bloc-20 p{
 	font-size: 24px;
 	line-height: 36px;
 	font-family: Domine;
 }
-#bloc-21 p{
-	font-family: Domine;
-	font-size: 24px;
-	line-height: 36px;
-}
-#bloc-23 p{
-	font-weight: 100;
+#bloc-22 p{
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
 #bloc-24 p{
-	line-height: 36px;
-	font-size: 24px;
+	font-weight: 100;
 	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
 }
 #bloc-25 p{
+	line-height: 36px;
+	font-size: 24px;
+	font-family: Domine;
+}
+#bloc-26 p{
 	font-size: 24px;
 	font-family: Domine;
 	line-height: 36px;
 }
-#bloc-29 h3{
+#bloc-30 h3{
 	line-height: 30px;
 	font-size: 32px;
 }
-#bloc-29 p{
+#bloc-30 p{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 33px;
 }
-#bloc-30 p{
+#bloc-31 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-31 h5{
+#bloc-32 h5{
 	font-family: Lato;
 	font-weight: 400;
 }
-#bloc-31 h4{
+#bloc-32 h4{
 	font-family: Lato;
 	font-weight: 900;
-}
-#bloc-32 p{
-	font-weight: 100;
-	font-family: Domine;
-	font-size: 24px;
-	line-height: 36px;
 }
 #bloc-33 p{
 	font-weight: 100;
@@ -351,55 +345,55 @@ h4{
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-35 p{
+#bloc-34 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-37 p{
+#bloc-36 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-39 p{
+#bloc-38 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-41 p{
+#bloc-40 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-46 h3{
+#bloc-42 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-47 h3{
 	font-size: 32px;
 	line-height: 30px;
 }
-#bloc-46 p{
+#bloc-47 p{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 33px;
 }
-#bloc-47 p{
+#bloc-48 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-48 h4{
+#bloc-49 h4{
 	font-family: Lato;
 	font-weight: 900;
-}
-#bloc-49 p{
-	font-weight: 400;
-	font-family: Domine;
-	font-size: 24px;
-	line-height: 36px;
 }
 #bloc-50 p{
 	font-weight: 400;
@@ -413,145 +407,145 @@ h4{
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-53 p{
+#bloc-52 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-55 p{
+#bloc-54 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-57 p{
+#bloc-56 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-59 p{
+#bloc-58 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-61 p{
+#bloc-60 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-63 p{
+#bloc-62 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-65 p{
+#bloc-64 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-67 p{
+#bloc-66 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-69 p{
+#bloc-68 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-71 p{
+#bloc-70 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-73 p{
+#bloc-72 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-75 p{
+#bloc-74 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-77 p{
+#bloc-76 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-79 p{
+#bloc-78 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-81 p{
+#bloc-80 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-83 p{
+#bloc-82 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-87 p{
+#bloc-84 p{
 	font-weight: 400;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-91 h3{
+#bloc-88 p{
+	font-weight: 400;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-92 h3{
 	font-size: 32px;
 	line-height: 30px;
 }
-#bloc-91 p{
+#bloc-92 p{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 33px;
 }
-#bloc-92 h1{
+#bloc-93 h1{
 	font-family: Lato;
 	font-weight: 900;
 	font-size: 66px;
 	line-height: 73px;
 }
-#bloc-92 p{
+#bloc-93 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-93 h5{
+#bloc-94 h5{
 	font-family: Lato;
 	font-weight: 400;
 }
-#bloc-93 h4{
+#bloc-94 h4{
 	font-size: 14px;
 	line-height: 15px;
 	font-family: Lato;
 	font-weight: 900;
-}
-#bloc-94 p{
-	font-weight: 100;
-	font-family: Domine;
-	font-size: 24px;
-	line-height: 36px;
 }
 #bloc-95 p{
 	font-weight: 100;
@@ -571,41 +565,47 @@ h4{
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-99 p{
+#bloc-98 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-101 p{
+#bloc-100 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-103 p{
+#bloc-102 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-105 p{
+#bloc-104 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-107 p{
+#bloc-106 p{
 	font-weight: 100;
 	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
 }
-#bloc-112 h3{
+#bloc-108 p{
+	font-weight: 100;
+	font-family: Domine;
+	font-size: 24px;
+	line-height: 36px;
+}
+#bloc-113 h3{
 	font-size: 32px;
 	line-height: 30px;
 }
-#bloc-112 p{
+#bloc-113 p{
 	font-family: Lato;
 	font-weight: 400;
 	font-size: 22px;
@@ -824,6 +824,9 @@ button{
 	margin:0 0 0 5px}
 /* = Icons
 -------------------------------------------------------------- */
+.icon-sm{
+	font-size:18px!important;
+}
 .icon-md{
 	font-size:30px!important;
 }
@@ -844,22 +847,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 
 /* iFrame */
