@@ -125,7 +125,7 @@
 					Pregame
 				</h3>
 				<p class=" mg-clear">
-					Before getting started, I did some research on web MVC frameworks that would improve the development speed, and create a more fluid experience for users.<br /><br />It went down Angular and Ember.js. At the time I was doing research, Angular was more popular, had more documentation, and was more mature. But Ember.js had the appeal of being similar to Ruby on Rails, which for me meant strong structure, and the thoughful process of adding features.<br /><br />From there, I started learning Ember.js, while implementing the first version of asknative.
+					Before getting started, I did some research on web MVC frameworks that would improve the development speed, and create a more fluid experience for users.<br /><br />It went down Angular and Ember.js. At the time I was doing research, Angular was more popular, had more documentation, and was more mature. But Ember.js had the appeal of being similar to Ruby on Rails, which for me meant strong structure, and the thoughtful process of adding features.<br /><br />From there, I started learning Ember.js, while implementing the first version of asknative.
 				</p>
 			</div>
 		</div>
@@ -177,7 +177,7 @@
 					Access
 				</h3>
 				<p class="mg-lg ">
-					During the first iterations, when users clicked Log In, I used to redirect them to a login page.<br /><br />There was two problems with that approach.<br /><br />First, user would lose his focus. For example, if he is already looking at a post and wants to reply, he would click Reply, get redirected to a page for login, after redirecting back, he would forget what he was doing.<br /><br />Second, redirection didn&rsquo;t always work. Although I did handle it programatically to redirect back to the page that user was working on, in some cases, an error would creep in, and would break the flow of users.
+					During the first iterations, when users clicked Log In, I used to redirect them to a login page.<br /><br />There was two problems with that approach.<br /><br />First, user would lose his focus. For example, if he is already looking at a post and wants to reply, he would click Reply, get redirected to a page for login, after redirecting back, he would forget what he was doing.<br /><br />Second, redirection didn&rsquo;t always work. Although I did handle it programmatically to redirect back to the page that user was working on, in some cases, an error would creep in, and would break the flow of users.
 				</p>
 			</div>
 		</div>
@@ -234,7 +234,7 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-8 col-md-offset-2">
 				<p class="mg-lg ">
-					Showing likes in each post caused a huge delay in receiving the JSON response from the backend, because avatars were not provided in the posts reponse, each batch of users in each post had to be fetched with a separate request. So I had to remove the avatars in order to improve performance.<br /><br />In the next iteration, I improved the posting box, making it blend more with posts, and I tried to show the options for posting (Ask Question, Leave a Tip). Also replace the text area for answering and commenting, and leave it as a label that would expand to write the answers and comments.<br /><br />Also changing the navigation, I merged home with the discover page. Showing the main timeline, and on the side, a city and users to follow suggestions, and finally created a segmented button to switch between different timelines. So users could navigtion to almost anywhere in the application from the home page.
+					Showing likes in each post caused a huge delay in receiving the JSON response from the backend, because avatars were not provided in the posts response, each batch of users in each post had to be fetched with a separate request. So I had to remove the avatars in order to improve performance.<br /><br />In the next iteration, I improved the posting box, making it blend more with posts, and I tried to show the options for posting (Ask Question, Leave a Tip). Also replace the text area for answering and commenting, and leave it as a label that would expand to write the answers and comments.<br /><br />Also changing the navigation, I merged home with the discover page. Showing the main timeline, and on the side, a city and users to follow suggestions, and finally created a segmented button to switch between different timelines. So users could navigate to almost anywhere in the application from the home page.
 				</p>
 			</div>
 		</div>
@@ -252,7 +252,7 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-8 col-md-offset-2">
 				<p class="mg-lg ">
-					Adding suggestions on the right didn&rsquo;t have much impact on users following behaviour. It needed a better suggestions algorithm from the backend, in order to provide the user valuable suggestions.<br /><br />Going forward, I removed the suggestions on the side, replaced the segmented button with tabs to improve the look, and finally hid the rest of the navigation from the top right under a drawer for a cleaner look.
+					Adding suggestions on the right didn&rsquo;t have much impact on users following behavior. It needed a better suggestions algorithm from the backend, in order to provide the user valuable suggestions.<br /><br />Going forward, I removed the suggestions on the side, replaced the segmented button with tabs to improve the look, and finally hid the rest of the navigation from the top right under a drawer for a cleaner look.
 				</p>
 			</div>
 		</div>
@@ -270,7 +270,7 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-8 col-md-offset-2">
 				<p class="mg-lg ">
-					For the cell design, we wanted to make it focus more on post text, and give more importance to questions than tips.<br /><br />So first, I reprioritized the cell design, moving the question or tip on top of the avatar, while keeping the post location on top, and finally decrease avatar size to shift more focus on the question.<br /><br />Then, I tried having different text size for questions and tips. Because questions usually have less characters, and tips were the opposite, I made questions have bigger font, while tips remain the same. But it wasn&rsquo;t good visually, and I ended up giving both of them the same size, which was something between the large font size of question, and small one of tip.<br /><br />As for action buttons (like, reply, repost, tweet, share), they were confusing. Orange seemed like it was active. Also we wanted to simplify the cell by merging action buttons with stats on the right, instead of having to look to the right in order to answer “how many like or shares” and whether I already liked this or not.<br /><br />Using gray was the best option available, as black conflicted with the rest of text. So in order to avoid feeling that it was disabled, I separated it from the upper and lower sections of the post, used colors on hover, and if user for example liked the post, the button would turn orange, so it would be obvious, that he liked the post.
+					For the cell design, we wanted to make it focus more on post text, and give more importance to questions than tips.<br /><br />So first, I re-prioritized the cell design, moving the question or tip on top of the avatar, while keeping the post location on top, and finally decrease avatar size to shift more focus on the question.<br /><br />Then, I tried having different text size for questions and tips. Because questions usually have less characters, and tips were the opposite, I made questions have bigger font, while tips remain the same. But it wasn&rsquo;t good visually, and I ended up giving both of them the same size, which was something between the large font size of question, and small one of tip.<br /><br />As for action buttons (like, reply, repost, tweet, share), they were confusing. Orange seemed like it was active. Also we wanted to simplify the cell by merging action buttons with stats on the right, instead of having to look to the right in order to answer “how many like or shares” and whether I already liked this or not.<br /><br />Using gray was the best option available, as black conflicted with the rest of text. So in order to avoid feeling that it was disabled, I separated it from the upper and lower sections of the post, used colors on hover, and if user for example liked the post, the button would turn orange, so it would be obvious, that he liked the post.
 				</p>
 			</div>
 		</div>
@@ -499,12 +499,12 @@
 					</li>
 					<li>
 						<p class=" mg-md">
-							<strong>Don&rsquo;t block users with login.</strong> People usually like to see the value you offer themselves before comitting to sign up. Even if they only have to click a button to enter.
+							<strong>Don&rsquo;t block users with login.</strong> People usually like to see the value you offer themselves before committing to sign up. Even if they only have to click a button to enter.
 						</p>
 					</li>
 					<li>
 						<p class=" mg-md">
-							<strong>Mobile first experience.</strong> Although I&rsquo;m a beliver of the mobile first approach to design, in this situation, I broke the rule.<br /><br />I thought there is already a mobile application, and people would use it instead, of which I was wrong. There are so many reasons that people would use the web version instead of the native one.
+							<strong>Mobile first experience.</strong> Although I&rsquo;m a believer of the mobile first approach to design, in this situation, I broke the rule.<br /><br />I thought there is already a mobile application, and people would use it instead, of which I was wrong. There are so many reasons that people would use the web version instead of the native one.
 						</p>
 					</li>
 				</ul>
