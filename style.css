@@ -220,14 +220,14 @@ h4{
 
 #hero-bloc h3{
 	font-size: 32px;
-	font-weight: 400;
-	font-family: Pacifico;
+	font-family: Lato;
+	font-weight: 900;
 }
 #hero-bloc h1{
-	font-size: 72px;
 	line-height: 92px;
-	font-weight: 300;
-	font-family: Oswald;
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 72px;
 }
 #bloc-2 p{
 	font-family: Lato;
