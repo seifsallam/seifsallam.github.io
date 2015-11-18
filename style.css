@@ -224,10 +224,10 @@ h4{
 	font-weight: 900;
 }
 #hero-bloc h1{
-	line-height: 92px;
 	font-family: Lato;
 	font-weight: 900;
 	font-size: 72px;
+	line-height: 92px;
 }
 #bloc-2 p{
 	font-family: Lato;
@@ -237,12 +237,6 @@ h4{
 #bloc-8 h3{
 	line-height: 30px;
 	font-size: 32px;
-}
-#bloc-8 p{
-	font-size: 22px;
-	line-height: 33px;
-	font-family: Lato;
-	font-weight: 400;
 }
 #bloc-9 p{
 	font-family: Domine;
@@ -319,12 +313,6 @@ h4{
 	line-height: 30px;
 	font-size: 32px;
 }
-#bloc-30 p{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 33px;
-}
 #bloc-31 p{
 	font-weight: 100;
 	font-family: Domine;
@@ -378,12 +366,6 @@ h4{
 #bloc-47 h3{
 	font-size: 32px;
 	line-height: 30px;
-}
-#bloc-47 p{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 33px;
 }
 #bloc-48 p{
 	font-weight: 400;
@@ -519,12 +501,6 @@ h4{
 	font-size: 32px;
 	line-height: 30px;
 }
-#bloc-92 p{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 33px;
-}
 #bloc-93 h1{
 	font-family: Lato;
 	font-weight: 900;
@@ -604,12 +580,6 @@ h4{
 #bloc-113 h3{
 	font-size: 32px;
 	line-height: 30px;
-}
-#bloc-113 p{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 33px;
 }
 
 /* = NavBar
