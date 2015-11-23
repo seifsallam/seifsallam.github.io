@@ -214,6 +214,22 @@ h4{
 	font-weight: 400;
 	font-size: 22px;
 }
+#project-yaya p{
+	font-size: 24px;
+	line-height: 36px;
+}
+#project-asknative-ios p{
+	font-size: 24px;
+	line-height: 36px;
+}
+#project-asknative-webapp p{
+	font-size: 24px;
+	line-height: 36px;
+}
+#project-asknative-android p{
+	font-size: 24px;
+	line-height: 36px;
+}
 #bloc-8 h3{
 	font-size: 32px;
 	line-height: 30px;
@@ -307,10 +323,10 @@ h4{
 	font-weight: 400;
 }
 #bloc-29 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-30 h5{
 	font-family: Lato;
@@ -321,40 +337,40 @@ h4{
 	font-weight: 900;
 }
 #bloc-31 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-32 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-34 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-36 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-38 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-40 p{
-	font-weight: 100;
-	font-family: Domine;
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
 }
 #bloc-43 p{
 	font-size: 24px;
@@ -489,6 +505,10 @@ h4{
 #bloc-84 p{
 	font-size: 24px;
 	line-height: 36px;
+	font-family: Lato;
+	font-weight: 400;
+}
+#bloc-86 h4{
 	font-family: Lato;
 	font-weight: 400;
 }
@@ -1045,6 +1065,9 @@ iframe{
 }
 .bg-city{
 	background-image:url("img/city.jpg");
+}
+.bg-preview-asknative-ios-full{
+	background-image:url('img/preview-asknative-ios-full.png');
 }
 
 
